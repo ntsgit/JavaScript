@@ -1,0 +1,6 @@
+JS course takeaways
+1.!+tab ---html structure
+2.script element at the end of the body od html
+3.live server installed in vs code to be able to execute js code in the browser
+4.node installed to be able to execute js code in terminal
+5.node=v6 js engine for google+ c+
