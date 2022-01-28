@@ -28,9 +28,10 @@ const inArray = (n) => {
   return a
 }
 
-exports.run = () => {
+const run = () => {
   console.log('nts ex01 odd/even number')
   // numbers(50)
   const nArray = inArray(50)
   console.log(nArray)
 }
+run();
