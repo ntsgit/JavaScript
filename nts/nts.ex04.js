@@ -40,3 +40,5 @@ const arrArmstrong = (arr) => {
 
 }
 arrArmstrong([222,371,153,698])
+
+
