@@ -15,7 +15,6 @@ const  fib= (n) => {
     return fib(n - 1) + fib(n - 2);
 }
 
-//function call
 console.log(fib(5));
 
 const fibSeq = (n) => {
@@ -27,3 +26,21 @@ const fibSeq = (n) => {
 
 }
 fibSeq(5)
+
+//no recursion
+
+const fibonnacciSeq = (n) => {
+    let a=0;
+    let b=1;
+    let c=0;
+    console.log(a);
+    console.log(b);
+    for (let i =2; i<=n; i++) {
+        c=a+b;
+        a=b;
+        b=c;
+        console.log(c);
+
+    }
+}
+fibonnacciSeq(5)
