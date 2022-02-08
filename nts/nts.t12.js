@@ -4,7 +4,7 @@ const calcS = (n, m) => {
     let S = 1;
 
     for (let i = 0; i <= m; i++) {
-        S = (n + i*m) * S
+        S = (n + i * m) * S
     }
     return S;
 }
@@ -13,11 +13,11 @@ console.log(calcS(2, 3))
 
 //calc S=(n+m)*(n-2m)*...(n+(-1)^(m+1)m*m)
 
-const calcS2 = (n,m) => {
-    let S=1;
+const calcS2 = (n, m) => {
+    let S = 1;
 
-    for(let i=1; i<=m; i++){
-        S=(n+ (-1)**(i+1)*i*m)*S
+    for (let i = 1; i <= m; i++) {
+        S = (n + (-1) ** (i + 1) * i * m) * S
     }
     return S;
 }
@@ -33,4 +33,4 @@ const calcS3 = (n, m) => {
     }
     return S;
 }
-console.log(calcS3(2,3))
+console.log(calcS3(2, 3))
