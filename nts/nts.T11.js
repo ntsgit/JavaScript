@@ -3,12 +3,12 @@
 
 const calcK = (k) => {
     let m = 1;
-    
-    
-    for (let i=0; i<=k; i++){
-        m = (k+i)*m
+
+
+    for (let i = 0; i <= k; i++) {
+        m = (k + i) * m
         console.log(m);
-        
+
     }
     return m
 }
