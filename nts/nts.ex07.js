@@ -9,7 +9,7 @@
 // fibonacci(7) = 13 
 
 
-const  fib= (n) => {
+const fib = (n) => {
     if (n <= 1)
         return n;
     return fib(n - 1) + fib(n - 2);
@@ -30,17 +30,16 @@ fibSeq(5)
 //no recursion
 
 const fibonnacciSeq = (n) => {
-    let a=0;
-    let b=1;
-    let c=0;
+    let a = 0;
+    let b = 1;
+    let c = 0;
     console.log(a);
     console.log(b);
-    for (let i =2; i<=n; i++) {
-        c=a+b;
-        a=b;
-        b=c;
+    for (let i = 2; i <= n; i++) {
+        c = a + b;
+        a = b;
+        b = c;
         console.log(c);
-
     }
 }
 fibonnacciSeq(5)
