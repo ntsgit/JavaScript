@@ -21,3 +21,12 @@ const factoriel = (n) => {
 }
 
 console.log(factoriel(9))
+
+
+const factorielRec = (n) => {
+    return n===1 ? n : n*factorielRec(n-1)
+
+}
+
+
+console.log(factorielRec(9))
