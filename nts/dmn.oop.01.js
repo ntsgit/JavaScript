@@ -26,4 +26,5 @@ console.log(`Is employee ${user.employee}\n`);
 user = user2
 console.log(`current user`, user);
 console.log(`Is employee ${user.employee}`);
-
+user.name = 'Mileva'
+console.log(`current user`, user);
