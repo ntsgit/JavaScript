@@ -21,8 +21,9 @@ const user2 = {
 
 let user = user1
 console.log(`current user`, user);
-console.log(`current user is employee ${user.employee}`);
+console.log(`Is employee ${user.employee}\n`);
 
 user = user2
 console.log(`current user`, user);
-console.log(`current user is employee ${user.employee}`);
+console.log(`Is employee ${user.employee}`);
+
