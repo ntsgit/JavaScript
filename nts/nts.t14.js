@@ -10,19 +10,19 @@ const factoriel = (n) => {
 //console.log(factoriel(1))
 
 const fractionSum = (n) => {
-    
-    let sum = 0;
-    let i=2;
 
-    while (i<=n+1) {
+    let sum = 0;
+    let i = 2;
+
+    while (i <= n + 1) {
         //console.log("i = ",i)
-        sum += 1/i;
+        sum += 1 / i;
         i++
 
     }
 
     return sum;
-    
+
 }
 console.log(fractionSum(3))
 
@@ -31,9 +31,9 @@ const f = (n) => {
     let total = 0;
     for (let i = 1; i <= n; i++) {
         //console.log("j = ",i, "fs = ", fractionSum)
-        total += factoriel(i)/fractionSum(i)
+        total += factoriel(i) / fractionSum(i)
         //console.log("total = ",total)
-        
+
     }
     return total;
 
