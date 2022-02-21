@@ -3,8 +3,8 @@
 
 const sum = (n) => {
     let result = 0;
-    for (let i=0; i<=n; i++) {
-     result += i 
+    for (let i = 0; i <= n; i++) {
+        result += i
     }
     return result;
 
@@ -12,8 +12,8 @@ const sum = (n) => {
 console.log(sum(9))
 
 const factoriel = (n) => {
-    let result =1;
-    for (let i=n; i>0; i--) {
+    let result = 1;
+    for (let i = n; i > 0; i--) {
         result *= i
     }
     return result
