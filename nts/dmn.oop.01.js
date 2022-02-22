@@ -1,5 +1,5 @@
 
-console.log('Objects')
+console.log('Object literal notation')
 
 const user1 = {
   name: 'Adam',

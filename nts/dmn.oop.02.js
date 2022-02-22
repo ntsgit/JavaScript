@@ -1,5 +1,5 @@
 
-console.log('Objects')
+console.log('Function Factory')
 
 const user = function(name, age, email, employee) {
 	return {
