@@ -161,11 +161,10 @@ function showPrimes(limit) {
 }
 
 function prime(n) {
-    let isPrime = true;
 
     for (let i = 2; i < n; i++) {
-      if (n % i === 0) return isPrime == false;
+      if (n % i === 0) return  false;
       
     }
-    return isPrime;
+    return true;
 }
