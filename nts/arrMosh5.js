@@ -8,13 +8,11 @@ console.log(count);
 console.log(countOccurrences2(numbers, 1));
 
 function countOccurrences(array, searchElement) {
-  /*let count = 0;
+  let count = 0;
 
   for (let el of array) 
     if (el === searchElement) count++;
-  return count;*/
-  return array.reduce(((a, v) => (v===searchElement) ? a+1: a),0)
-
+  return count;
 
 }
 

@@ -3,11 +3,11 @@
 
 const numbers = [1, 2, 3, 4];
 
-const max = getMax(numbers);
+//const max = getMax(numbers);
 
-console.log(max);
+//console.log(getMax(numbers));
 
-function getMax(array) {
+const getMax = (array) => {
  /* let max = array[0];
 
   for (let i = 1 ; i < array.length; i++) {
@@ -18,3 +18,5 @@ function getMax(array) {
   return array.reduce((maxValue, currentValue) => (maxValue < currentValue) ?  currentValue : maxValue);
  
 }
+
+console.log(getMax(numbers));
