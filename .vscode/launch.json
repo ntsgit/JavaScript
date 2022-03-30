@@ -5,12 +5,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "pwa-node",
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/nts/test.js",
       "request": "launch",
-      "name": "Run Current File",
-      "runtimeExecutable": "/home/dmn/.nvm/versions/node/v16.13.0/bin/node",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/nts/run.js"
+      "type": "pwa-node"
     }
   ]
 }
