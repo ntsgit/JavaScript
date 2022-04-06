@@ -3,10 +3,6 @@
 
 const numbers = [1, 2, 3, 4];
 
-//const max = getMax(numbers);
-
-//console.log(getMax(numbers));
-
 const getMax = (array) => {
  /* let max = array[0];
 
